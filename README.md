@@ -1,2 +1,2 @@
 # BIMM-143
-Bioinformatics class FA22
+Bioinformatics class Fall 2022
