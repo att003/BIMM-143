@@ -1,0 +1,65 @@
+---
+title: "Class 11: Genome Informatics"
+author: "Anh Tran"
+format: pdf
+---
+
+```{r}
+mxl <- read.csv("MXL.csv", row.names=1)
+```
+
+```{r}
+View(mxl)
+```
+
+```{r}
+table(mxl$Genotype..forward.strand.)
+```
+
+```{r}
+table(mxl$Genotype..forward.strand.) / nrow(mxl)
+```
+
+#Section 4: Population Analysis
+
+> Q13: Read this file into R and determine the sample size for each genotype and their corresponding median expression levels for each of these genotypes. 
+
+```{r}
+url <- "https://bioboot.github.io/bimm143_F22/class-material/rs8067378_ENSG00000172057.6.txt"
+
+file <- read.table(url, row.names=1)
+head(file)
+```
+
+The sample size for each genotype
+
+```{r}
+table(file$geno)
+```
+
+```{r}
+A <- file[file$geno=="A/A",]
+B <- file[file$geno=="A/G",]
+C <- file[file$geno=="G/G",]
+```
+
+The median values for A/A, A/G, and G/G correspondingly are:
+
+```{r}
+median(A$exp)
+median(B$exp)
+median(C$exp)
+```
+
+>Q14: Generate a boxplot with a box per genotype, what could you infer from the relative expression value between A/A and G/G displayed in this plot? Does the SNP effect the expression of ORMDL3?
+
+```{r}
+library(ggplot2)
+```
+
+```{r}
+plot <- ggplot(file) + aes(geno=geno, y=exp, fill=geno) + geom_boxplot(notch=TRUE)
+plot
+```
+
+The expression levels are lower for G/G and higher for A/A meaning that having G/G is associated with reduced expression of this gene. Yes, SNP affects the expression of ORMDL3.
