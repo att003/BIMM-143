@@ -1,7 +1,7 @@
 ---
 title: "Class 10: Halloween Mini-Project"
 author: "Anh Tran"
-format: pdf
+format: gfm
 ---
 
 ```{r}
