@@ -17,7 +17,7 @@ Here is a portfolio of my work for [BIMM 143](https://bioboot.github.io/bimm143_
 - Class 13: [RNA-Seq mini project]()code]()
 - Class 14: Veterans Day Holiday - no class
 - Class 15: [Essential UNIX for bioinformatics]()code]()
-- Class 16: Hands-on with Git and GitHub | code
+- Class 16: Hands-on with Git and GitHubcode
 - Class 17: [Vaccination rate mini project]()[code]()
 - Class 18: Thanksgiving Holiday - no class
 - Class 19: [Investigating pertussis resurgence mini project]()[code]()
