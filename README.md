@@ -3,11 +3,11 @@ Bioinformatics class Fall 2022 at UC San Diego
 
 Here is a portfolio of my work for [BIMM 143](https://bioboot.github.io/bimm143_F22/). 
 
-- Class 1: Welcome to Bioinformatics | code
-- Class 2: Sequence alignment fundamentals, algorithms and applications | code
-- Class 3: Advanced sequence alignment and database searching | code
+- Class 1: Welcome to Bioinformatics 
+- Class 2: Sequence alignment fundamentals, algorithms and applications 
+- Class 3: Advanced sequence alignment and database searching
 - Class 4: [Bioinformatics data analysis with R](https://github.com/att003/BIMM-143/blob/main/class%204/l4-sample.pdf)
-- Class 5: [Data exploration and visualization in R](https://github.com/att003/BIMM-143/blob/main/class%205/class%205/class05.pdf) | [code](https://github.com/att003/BIMM-143/blob/main/class%205/class%205/class05.qmd)
+- Class 5: [Data exploration and visualization in R](https://github.com/att003/BIMM-143/blob/main/class%205/class%205/class05.pdf)|[code](https://github.com/att003/BIMM-143/blob/main/class%205/class%205/class05.qmd)
 - Class 6: Why, when and how of writing your own R functions | code
 - Class 7: [Introduction to machine learning for Bioinformatics 1]() | [code]()
 - Class 8: [Unsupervised learning mini-project](https://github.com/att003/BIMM-143/blob/main/class%208/class08.quartro.pdf) | [code](https://github.com/att003/BIMM-143/blob/main/class%208/class08.quartro.qmd)
